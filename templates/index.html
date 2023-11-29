@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<div class="container-fluid px-0">
+  {% include 'messages.html' %}
+
+   
+
+  <div class="container" style="margin-bottom:25px ;margin-top : 25px"><h1 class="my-3 text-center" style=" font-size:50px ; color:rgb(87, 8, 8)" >CarWorld</h1>
+    <p style="text-align : center; margin-top : 50px; font-size : 25px ; color : rgb(139, 21, 21)">Your safety is our first goal. You are going to have the best experience of joy with us. So what are you waiting for? Get ready to have the best quality cars and get the experience of adventure and sweetness of ride. !!</p>
+  
+  </div>
+  <hr style="height:2px;border-width:0;color:brown;background-color:brown ; margin-top:35px ">
+  <h3 style="text-align:center">CAR GALLERY</h3>
+  
+  <div class="row m-5" >
+  <div class="col-lg-4">
+    <div class="container" >
+      {%load static%}
+      <img src = "{%static "v1.jpg"%}" width="400" height="400" border-radius="50" class="img-thumbnail" >
+    </div>
+   
+  
+  </div><!-- /.col-lg-4 -->
+  <div class="col-lg-4">
+    <div class="container" >
+      {%load static%}
+      <img src = "{%static "car1.jpg"%}" width="400" height="400" border-radius="50" class="img-thumbnail" >
+    </div>
+    
+    
+   
+  </div><!-- /.col-lg-4 -->
+  <div class="col-lg-4">
+    <div class="container" >
+      {%load static%}
+      <img src = "{%static "car3.webp"%}" width="360" height="200" border-radius="50" class="img-thumbnail" >
+    </div>
+    
+  </div><!-- /.col-lg-4 -->
+</div>
+<div class="row m-5" >
+  <div class="col-lg-4">
+    <div class="container" >
+      {%load static%}
+      <img src = "{%static "car2.jpg"%}" width="400" height="400" border-radius="50" class="img-thumbnail" >
+    </div>
+   
+  
+  </div><!-- /.col-lg-4 -->
+  <div class="col-lg-4">
+    <div class="container" >
+      {%load static%}
+      <img src = "{%static "car5.jpg"%}" width="400" height="400" border-radius="50" class="img-thumbnail" >
+    </div>
+    
+    
+   
+  </div><!-- /.col-lg-4 -->
+  <div class="col-lg-4">
+    <div class="container" >
+      {%load static%}
+      <img src = "{%static "car4.jpg"%}" width="360" height="400" border-radius="50" class="img-thumbnail" >
+    </div>
+    
+  </div><!-- /.col-lg-4 -->
+</div>
+  
+
+{% endblock body %}
+
